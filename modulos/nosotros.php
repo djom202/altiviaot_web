@@ -1,7 +1,14 @@
 <div id="nosotros" class="seccion row-fluid">
 	<header class="row span12"><h1>¿Quienes somos?</h1></header>
 	<section class="row">
-		<div class="span9 offset2">
+		<ul class="polaroids visible-desktop">
+			<li>
+				<a href="#" title="Ing. Jonathan Olier">
+					<img src="./themes/img/home/djom20.jpg" alt="Ing. Jonathan Olier">
+				</a>
+			</li>
+		</ul>
+		<div class="span8 offset3">
 			Somos una empresa 100% Colombiana, comprometida con la visión de poder ofrecer servicios web a nivel 
 			global, con los más altos estándares de calidad y a los mejores precios del mercado. Empezamos con la 
 			iniciativa, siendo un grupo de estudiantes vinculados al mundo web, y con el deseo de brindarle a la 
@@ -9,7 +16,7 @@
 			Nuestra misión está orientada a brindarles los mejores servicios en el mundo web, y nos sentimos en el 
 			deber de realizar una mejor labor cada día.
 		</div>
-		<div class="span8 offset2">
+		<div class="span8 offset3">
 			<h2>¿Por qué preferirnos?</h2>
 			Manejamos una línea de estándares y servicios que nos posicionan muy bien en el mercado, manejado 
 			diseños sencillos y profesionales a su medida además de una variedad de plataformas que nos ayudan a 
@@ -18,7 +25,7 @@
 			en todo momento es nuestra primera meta, querer que Ud. y su empresa se fortalezcan en el mundo web.		
 		</div>
 	</section>
-	<footer id="logos" class="row hidden">
+	<footer id="logos" class="row">
 		<a target="_blank" href="http://nodejs.org/"><img id="logo1" src="themes/img/about/logo1.png" alt="" class="logo"></a>
 		<a target="_blank" href="http://rubyonrails.org.es/"><img id="logo2" src="themes/img/about/logo2.png" alt="" class="logo"></a>
 		<a target="_blank" href="http://learnboost.github.com/stylus/"><img id="logo3" src="themes/img/about/logo3.png" alt="" class="logo"></a>

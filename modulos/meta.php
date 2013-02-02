@@ -8,6 +8,7 @@
 <link rel="stylesheet" type="text/css" href="themes/css/docs/assets/css/bootstrap.css" media="all">
 <link rel="stylesheet" type="text/css" href="themes/css/docs/assets/css/bootstrap2.css" media="all">
 <link rel="stylesheet" type="text/css" href="themes/css/docs/assets/css/bootstrap-responsive.css" media="all">
+<link rel="stylesheet" type="text/css" href="themes/css/docs.css" media="all">
 <link rel="stylesheet" type="text/css" href="themes/css/menu.css?id=<?php echo date('s'); ?>" media="all">
 <link rel="stylesheet" type="text/css" href="themes/css/stylesheet.css?id=<?php echo date('s'); ?>" media="all">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />

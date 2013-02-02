@@ -18,17 +18,17 @@
 	<script type="text/javascript">
 		$(document).ready(function($) {
 			$('.dropdown-toggle').dropdown();
-			$('.carousel').carousel();
-			$('#Tabs a:first').tab('show');
-			$('#Tabs a').click(function (e) {
-				e.preventDefault();
-				$(this).tab('show');
-			});
-			$('#menubar').scrollspy();
-			$('#tools').tooltip('toggle');
-			$('.pop').popover('toggle');
+			//$('.pop').popover('toggle');
+			$("a[rel=popover]")
+		      .popover()
+		      .click(function(e) {
+		        e.preventDefault()
+		    });
 		});
-	</script>
+        $(window).load(function () {
+            $('#loader').slideUp(2500);
+        });
+    </script>
 	<!—[if lt IE 9]>
     	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]—>

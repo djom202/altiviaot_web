@@ -23,5 +23,4 @@
 			razones por la cual nosotros somos lo que busca.
 		</div>
 	</section>
-	<footer class="row"></footer>
 </div>

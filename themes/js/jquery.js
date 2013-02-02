@@ -5,7 +5,7 @@ $(document).ready(function(){
 	 	switch(id){
 	 		case 'ahome':scroll = 0;
 	 			break;
-	 		case 'anosotros':scroll = ($('#home').height());
+	 		case 'anosotros':scroll = ($('#home').height() - 150);
 	 			Logos();
 	 			break; 
 	 		case 'aservicios':scroll = ($('#home').height() + $('#nosotros').height());
@@ -14,15 +14,15 @@ $(document).ready(function(){
 	 			break; 
 	 		case 'acontacto':scroll = ($('#home').height() + $('#nosotros').height() + $('#politicas').height() + $('#servicios').outerHeight());
 	 			break;
-	 		case 'facebook':
-	 			break;
-	 		case 'twitter':
-	 			break;
-	 		case 'youtube':
+	 		case '':
 	 			break;
 	 	}
 	 	$('html,body').animate({scrollTop:scroll},1000, 'swing');
 	 	evt.preventDefault();
+	 });
+
+	 $('.dominio').click(function(evt){
+	 	$('#dominio').removeClass('hidden');
 	 });
 	 	
 	Googlemaps();
@@ -60,27 +60,4 @@ function Googlemaps(){
 	google.maps.event.addListener(companyMarker, 'click', function() {
 		infowindow.open(map,companyMarker);
 	});
-}
-
-function Logos(){
-   var c = $('#logos').attr('class');
-   $('#logos').attr('class','show');
-   if(c=='show') return
-   $('#logos1').css({opacity: 0.0, visibility: "visible"}).stop().animate({opacity: 1.0},function(){
-        $('#logos2').css({opacity: 0.0, visibility: "visible"}).stop().animate({opacity: 1.0},function(){
-            $('#logos3').css({opacity: 0.0, visibility: "visible"}).stop().animate({opacity: 1.0},function(){
-                $('#logos4').css({opacity: 0.0, visibility: "visible"}).stop().animate({opacity: 1.0},function(){
-                    $('#logos5').css({opacity: 0.0, visibility: "visible"}).stop().animate({opacity: 1.0},function(){
-                        $('#logos6').css({opacity: 0.0, visibility: "visible"}).stop().animate({opacity: 1.0},function(){
-                            $('#logos7').css({opacity: 0.0, visibility: "visible"}).stop().animate({opacity: 1.0},function(){
-                                $('#logos8').css({opacity: 0.0, visibility: "visible"}).stop().animate({opacity: 1.0},function(){
-                                    $('#logos9').css({opacity: 0.0, visibility: "visible"}).stop().animate({opacity: 1.0});
-                                });
-                            });
-                        });
-                    });
-                });
-            });
-        });
-    });
 }
