@@ -1,20 +1,18 @@
-	<script type="text/javascript" src="themes/css/docs/assets/js/jquery-1.7.2.min.js"></script>
-	<script type="text/javascript" src="themes/css/docs/assets/js/bootstrap-alert.js"></script>
-	<script type="text/javascript" src="themes/css/docs/assets/js/bootstrap-button.js"></script>
-	<script type="text/javascript" src="themes/css/docs/assets/js/bootstrap-carousel.js"></script>
-	<script type="text/javascript" src="themes/css/docs/assets/js/bootstrap-collapse.js"></script>
-	<script type="text/javascript" src="themes/css/docs/assets/js/bootstrap-dropdown.js"></script>
-	<script type="text/javascript" src="themes/css/docs/assets/js/bootstrap-modal.js"></script>
-	<script type="text/javascript" src="themes/css/docs/assets/js/bootstrap-tooltip.js"></script>
-	<script type="text/javascript" src="themes/css/docs/assets/js/bootstrap-popover.js"></script>
-	<script type="text/javascript" src="themes/css/docs/assets/js/bootstrap-scrollspy.js"></script>
-	<script type="text/javascript" src="themes/css/docs/assets/js/bootstrap-tab.js"></script>
-	<script type="text/javascript" src="themes/css/docs/assets/js/bootstrap-transition.js"></script>
-	<script type="text/javascript" src="themes/css/docs/assets/js/bootstrap-typeahead.js"></script>
-	<script type="text/javascript" src="themes/css/docs/assets/js/bootstrap.min.js"></script>
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-transition.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-alert.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-modal.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-dropdown.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-scrollspy.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-tab.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-tooltip.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-popover.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-button.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-collapse.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-carousel.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-typeahead.js"></script>
 	<script type="text/javascript" src="themes/js/disable select text.js"></script>
-	<script type="text/javascript" src="themes/css/docs/assets/js/widgets.js"></script>
-	<script type="text/javascript" src="themes/js/jquery.js"></script>
+	<script type="text/javascript" src="themes/js/myjquery.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function($) {
 			$('.dropdown-toggle').dropdown();

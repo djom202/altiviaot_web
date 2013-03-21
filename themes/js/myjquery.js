@@ -5,14 +5,15 @@ $(document).ready(function(){
 	 	switch(id){
 	 		case 'ahome':scroll = 0;
 	 			break;
-	 		case 'anosotros':scroll = ($('#home').height() - 150);
-	 			Logos();
-	 			break; 
+	 		case 'anosotros':scroll = ($('#home').height());
+	 			break;
 	 		case 'aservicios':scroll = ($('#home').height() + $('#nosotros').height());
-	 			break; 
+	 			break;
 	 		case 'apoliticas':scroll = ($('#home').height() + $('#nosotros').height() + $('#politicas').height());
-	 			break; 
-	 		case 'acontacto':scroll = ($('#home').height() + $('#nosotros').height() + $('#politicas').height() + $('#servicios').outerHeight());
+	 			break;
+	 		case 'aredes_sociles':scroll = ($('#home').height() + $('#nosotros').height() + $('#politicas').height() + $('#redes_sociales').height());
+	 			break;
+	 		case 'acontacto':scroll = ($('#home').height() + $('#nosotros').height() + $('#politicas').height() + $('#servicios').outerHeight() + $('#redes_sociales').height());
 	 			break;
 	 		case '':
 	 			break;
@@ -24,7 +25,7 @@ $(document).ready(function(){
 	 $('.dominio').click(function(evt){
 	 	$('#dominio').removeClass('hidden');
 	 });
-	 	
+
 	Googlemaps();
 });
 
@@ -45,7 +46,7 @@ function Googlemaps(){
 	var infowindow = new google.maps.InfoWindow({
 		content: contentString
 	});
-	var companyImage = new google.maps.MarkerImage('themes/img/contacto/ubicacion.png',
+	var companyImage = new google.maps.MarkerImage('https://dl.dropbox.com/u/57960869/Altiviaot/web/contacto/ubicacion.png',
 		new google.maps.Size(100,50),
 		new google.maps.Point(0,0),
 		new google.maps.Point(50,50)

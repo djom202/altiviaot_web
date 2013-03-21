@@ -1,14 +1,14 @@
 <div id="loader">
     <style type="text/css">
         body{
-            overflow-y: hidden;                    
+            overflow-y: hidden;
         }
         #loader{
-            background: #161616 url('themes/img/loader.gif') top left repeat;
+            background: #161616 url('<?php echo Dropbox; ?>loader.gif') top left repeat;
             height: 40em;
             margin-left: -2%;
             margin-right: -2%;
-            margin-top: -2%;
+            margin-top: -3%;
             padding-top: 24em;
             position: absolute;
             z-index: 50000;
@@ -35,7 +35,7 @@
             border-top:5px solid rgba(0,0,0,0);
             border-left:5px solid rgba(0,0,0,0);
             border-radius:50px;
-            box-shadow: 0 0 15px #2187e7; 
+            box-shadow: 0 0 15px #2187e7;
             width:30px;
             height:30px;
             margin:0 auto;

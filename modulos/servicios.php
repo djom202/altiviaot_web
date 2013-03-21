@@ -1,6 +1,6 @@
 <div id="servicios" class="seccion row-fluid">
 	<header class="row span12"><h1>Servicios</h1></header>
-	<section>		
+	<section>
 		<div class="row span10 offset2">
 			<form action="clases/servicios.php" method="POST">
 				<div class="row">

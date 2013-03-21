@@ -1,26 +1,26 @@
-::-webkit-scrollbar { 
-    width: 12px; 
-} 
-      
-::-webkit-scrollbar-track { 
-    -webkit-box-shadow: #000000; 
-    -webkit-border-radius: 10px; 
-    border-radius: 10px; 
-} 
+::-webkit-scrollbar {
+    width: 12px;
+}
 
-::-webkit-scrollbar-track-piece { 
-    background-color: transparent; 
-} 
-      
-::-webkit-scrollbar-thumb { 
-    -webkit-border-radius: 10px; 
-    border-radius: 10px; 
-    background: #EB8A1D; 
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);  
-} 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: #000000;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
 
-::-webkit-scrollbar-thumb:window-inactive { 
-    background: #EB8A1D; 
+::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #EB8A1D;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: #EB8A1D;
 }
 
 * {
@@ -29,7 +29,7 @@
 body{
     color: #FFF;
     overflow: hidden;
-    background: #049EC4 url('../../themes/img/home/cloud.jpg') 0% 0% repeat-x; /*058bb4*/
+    background: #049EC4 url('https://dl.dropbox.com/u/57960869/Altiviaot/web/home/cloud.jpg') 0% 0% repeat-x; /*058bb4*/
     animation: animate-cloud 20s linear infinite;
     -moz-animation: animate-cloud 20s linear infinite;
     -webkit-animation: animate-cloud 20s linear infinite;
@@ -60,7 +60,7 @@ body{
     background: -o-linear-gradient(45deg, #020031 0%,#6D3353 100%);
     background: linear-gradient(45deg, #020031 0%,#6D3353 100%);*/
 }
-#home section, #servicios section,#politicas section, #nosotros section, #contacto section{
+#home section, #servicios section,#politicas section, #nosotros section, #contacto section, #redes_sociales section{
     margin-left: 5%;
     padding-right: 2%;
     padding-top: 2%;
@@ -120,7 +120,7 @@ footer{
     text-transform: uppercase;
 }
 #iphone {
-    background-image: url('../../themes/img/contacto/iphone.png');
+    background-image: url('https://dl.dropbox.com/u/57960869/Altiviaot/web/contacto/iphone.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 33em;
@@ -128,7 +128,7 @@ footer{
     width: 16em;
 }
 #google-maps {
-    background-image: url('../../themes/img/contacto/mapa.png');
+    background-image: url('https://dl.dropbox.com/u/57960869/Altiviaot/web/contacto/mapa.png');
     background-repeat: no-repeat;
     background-position: 47% 0%;
     background-size: cover;
@@ -138,7 +138,7 @@ footer{
     width: 12em;
 }
 #cell {
-    background-image: url('../../themes/img/contacto/cell.png');
+    background-image: url('https://dl.dropbox.com/u/57960869/Altiviaot/web/contacto/cell.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 4em;
@@ -152,7 +152,7 @@ footer{
     width: 166px;
 }
 #mail {
-    background-image: url('../../themes/img/contacto/mail.png');
+    background-image: url('https://dl.dropbox.com/u/57960869/Altiviaot/web/contacto/mail.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 3em;
@@ -165,7 +165,7 @@ footer{
     margin-top: -46%;
 }
 #qr {
-    background-image: url('../../themes/img/contacto/qr.png');
+    background-image: url('https://dl.dropbox.com/u/57960869/Altiviaot/web/contacto/qr.png');
     background-repeat: no-repeat;
     background-size: 87% 100%;
     height: 11em;
@@ -220,8 +220,8 @@ a:hover{
 }
 .tw{
     text-align: center;
-    background-image:url('../../themes/img/fondo_twitter.png');
-    background-size: cover; 
+    background-image:url('https://dl.dropbox.com/u/57960869/Altiviaot/web/fondo_twitter.png');
+    background-size: cover;
     margin-top: -10%;
     margin-left: -7%;
     margin-right: -7%;
@@ -234,7 +234,7 @@ a:hover{
 }
 .face{
     text-align: center;
-    background-image:url('../../themes/img/fondo_facebook.jpg');
+    background-image:url('https://dl.dropbox.com/u/57960869/Altiviaot/web/fondo_facebook.jpg');
     background-size: 100% 100%;
     margin-top: -10%;
     margin-left: -7%;
@@ -258,13 +258,13 @@ ul.polaroids a {
     -webkit-transform: rotate(-2deg);
     -moz-transform: rotate(-2deg);
 }
- 
+
 /* Rotate all even images 2 degrees */
 ul.polaroids li:nth-child(even) a {
     -webkit-transform: rotate(2deg);
     -moz-transform: rotate(2deg);
 }
- 
+
 /* Don't rotate every third image, but offset its position */
 ul.polaroids li:nth-child(3n) a {
     -webkit-transform: none;
@@ -272,7 +272,7 @@ ul.polaroids li:nth-child(3n) a {
     position: relative;
     top: -5px;
 }
- 
+
 /* Rotate every fifth image by 5 degrees and offset it */
 ul.polaroids li:nth-child(5n) a {
     -webkit-transform: rotate(5deg);
@@ -280,14 +280,14 @@ ul.polaroids li:nth-child(5n) a {
     position: relative;
     right: 5px;
 }
- 
+
 /* Keep default rotate for every eighth, but offset it */
 ul.polaroids li:nth-child(8n) a {
     position: relative;
     top: 8px;
     right: 5px;
 }
- 
+
 /* Keep default rotate for every eleventh, but offset it */
 ul.polaroids li:nth-child(11n) a {
     position: relative;
@@ -306,7 +306,7 @@ ul.polaroids a {
     -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
     -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
 }
- 
+
 /* On hover, darken the shadows a bit */
 ul.polaroids a {
     -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5);
@@ -337,4 +337,14 @@ ul.polaroids a {
     -webkit-transform: rotate(-2deg);
     -webkit-transition: -webkit-transform .15s linear;
     -moz-transform: rotate(-2deg);
+}
+
+#ahome img{
+    margin-bottom: -5%;
+    margin-top: -3%;
+    width: 7em;
+}
+
+#redes_sociales{
+
 }
