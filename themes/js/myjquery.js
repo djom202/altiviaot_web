@@ -22,10 +22,14 @@ $(document).ready(function(){
 	 	evt.preventDefault();
 	 });
 
-	 $('.dominio').click(function(evt){
-	 	$('#dominio').removeClass('hidden');
-	 });
-
+	 $('li').hover(
+	  	function () {
+	    	$(this).find('i').removeClass("icon-white");
+	  	},
+		function () {
+	    	$(this).find('i').addClass("icon-white");
+	  	}
+	);
 	Googlemaps();
 });
 

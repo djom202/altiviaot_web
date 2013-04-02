@@ -1,19 +1,30 @@
 <div id="politicas" class="seccion row-fluid">
-	<header class="row span12"><h1>Politicas</h1></header>
-	<section>
-		<div class="row span11 offset1">
-			<div class="span3 bs-docs-sidebar hidden-phone">
-		        <ul class="nav nav-list bs-docs-sidenav affix-top" style="margin-top: 0; box-shadow: 3px 3px 0px #CCC, 0 52px 33px -36px rgba(0, 0, 0, 0.37);">
-		          <li><a href="#general"><i class="icon-chevron-right"></i> General</a></li>
-		          <li><a href="#objeto"><i class="icon-chevron-right"></i> Objeto, modificaciones y prestaciones</a></li>
-		          <li><a href="#derechos"><i class="icon-chevron-right"></i> Derechos y obligaciones de las partes</a></li>
-		          <li><a href="#licencias"><i class="icon-chevron-right"></i> Licencias, Propiedad Intelectual</a></li>
-		          <li><a href="#tarifas"><i class="icon-chevron-right"></i> Tarifas y forma de pago</a></li>
-		          <li><a href="#ofertas"><i class="icon-chevron-right"></i> Oferta, formalización y prórroga del contrato</a></li>
+	<header class="row-fluid"><h1>Politicas</h1></header>
+	<section style="padding-top: 0 !important;">
+		<div class="row-fluid offset1">
+			<div class="span5 bs-docs-sidebar hidden-phone">
+		        <ul class="nav nav-list bs-docs-sidenav affix-top">
+		          <li>I Condiciones</li>
+		          <li><a href="#generales"><i class="icon-chevron-right icon-white"></i> Generales</a></li>
+		          <li><a href="#objeto"><i class="icon-chevron-right icon-white"></i> Objeto, modificaciones y prestaciones</a></li>
+		          <li><a href="#derechos"><i class="icon-chevron-right icon-white"></i> Derechos y obligaciones de las partes</a></li>
+		          <li><a href="#licencias"><i class="icon-chevron-right icon-white"></i> Licencias, Propiedad Intelectual</a></li>
+		          <li><a href="#tarifas"><i class="icon-chevron-right icon-white"></i> Tarifas y forma de pago</a></li>
+		          <li><a href="#ofertas"><i class="icon-chevron-right icon-white"></i> Oferta, formalización y prórroga del contrato</a></li>
+		          <li><a href="#fin_contrato"><i class="icon-chevron-right icon-white"></i> Terminación del contrato</a></li>
+		          <li><a href="#proteccion_datos"><i class="icon-chevron-right icon-white"></i> Protección de Datos Personales</a></li>
+		          <li><a href="#derechos_des"><i class="icon-chevron-right icon-white"></i> Derecho de desistimiento</a></li>
+		          <li><a href="#garantia"><i class="icon-chevron-right icon-white"></i> Periodo de garantía</a></li>
+		          <li><a href="#legislacion"><i class="icon-chevron-right icon-white"></i> Legislación aplicable y fuero</a></li>
+		          <li><a href="#varios"><i class="icon-chevron-right icon-white"></i> Varios</a></li>
+		          <li>II Condiciones</li>
+		          <li><a href="#registro_dominios"><i class="icon-chevron-right icon-white"></i> Registro de dominios</a></li>
+		          <li><a href="#derechos_dominio_litigios"><i class="icon-chevron-right icon-white"></i> Derechos de dominio, litigios</a></li>
+		          <li><a href="#recursos_ilimitados_e_usos"><i class="icon-chevron-right icon-white"></i> Ancho de Recursos y Uso aceptable de Ellos</a></li>
 		        </ul>
 	      	</div>
-			<div class="cont span9">
-				<div id="general">
+			<div id="condicionesI" class="cont span7">
+				<div id="generales">
 					<h3>Usando Nuestros servicios Ud. está de acuerdo con lo siguiente.</h3>
 					<p><span class="label label-info">AltiviaOT.com</span> es una empresa Colombiana que ofrece diversos servicios web a los CLIENTES, y asume la responsabilidad de proteger a cada cliente y de ofrecerle los mejores servicios disponibles. Todos los CLIENTES de <span class="label label-info">AltiviaOT.com</span> están sujetos a las siguientes condiciones de servicio:</p>
 					<h3>Política de satisfacción:</h3>
@@ -96,7 +107,7 @@
 										<li>2.19. Cualquier reclamación del CLIENTE a <span class="label label-info">AltiviaOT.com</span> deberá ser presentada en un plazo que no puede exceder de dos semanas, a partir del momento en que el CLIENTE haya tenido conocimiento de los defectos e interrupciones objetos de la reclamación. La comunicación deberá ser de forma escrita, que podrá realizarse también mediante correo electrónico si el CLIENTE añade a la reclamación su nombre completo, C.I/RIF, dirección, dirección e-mail, teléfono así como el titolar del servicio, y provee al documento electrónico de una firma electrónica, conforme a la normativa vigente. Queda excluida la reclamación de defectos e interrupciones no avisadas a tiempo.</li>
 										<br><span>La reclamación debe dirigirse a la siguiente dirección electrónica: <span class="label label-info">info@AltiviaOT.com</span></span><br><br>
 										<p>Tras la notificación a <span class="label label-info">AltiviaOT.com</span> de los defectos e interrupciones, objetos de la reclamación, el CLIENTE concederá a <span class="label label-info">AltiviaOT.com</span> un plazo de 20 días para restablecer el correcto funcionamiento del servicio. Durante este plazo, el CLIENTE no podrá ejercer acción alguna contra <span class="label label-info">AltiviaOT.com</span> ni terminar el contrato por motivo de tales defectos e interrupciones.</p>
-										<li>2.20. <span class="label label-info">AltiviaOT.com</span> únicamente responderá por los daños producidos como consecuencia de la infracción de una obligación contractual esencial (obligaciones cardinales) por parte de <span class="label label-info">AltiviaOT.com</span> o de una de las personas de las que <span class="label label-info">AltiviaOT.com</span> se sirva para el cumplimiento de sus obligaciones, poniendo en peligro el objeto contractual, o de aquellos daños que se debieran a un comportamiento doloso o gravemente imprudente de Iguanahosting.com o de una de las personas de las que <span class="label label-info">AltiviaOT.com</span> se sirva para el cumplimiento de sus obligaciones. Si la infracción colpable de una obligación esencial del contrato (obligación cardinal) no se produce de forma gravemente imprudente ni dolosa, la responsabilidad de <span class="label label-info">AltiviaOT.com</span> queda limitada a la cuantía del daño que fuera previsible razonablemente para Iguanahosting.com a la celebración del contrato.</li>
+										<li>2.20. <span class="label label-info">AltiviaOT.com</span> únicamente responderá por los daños producidos como consecuencia de la infracción de una obligación contractual esencial (obligaciones cardinales) por parte de <span class="label label-info">AltiviaOT.com</span> o de una de las personas de las que <span class="label label-info">AltiviaOT.com</span> se sirva para el cumplimiento de sus obligaciones, poniendo en peligro el objeto contractual, o de aquellos daños que se debieran a un comportamiento doloso o gravemente imprudente de <span class="label label-info">AltiviaOT.com</span> o de una de las personas de las que <span class="label label-info">AltiviaOT.com</span> se sirva para el cumplimiento de sus obligaciones. Si la infracción colpable de una obligación esencial del contrato (obligación cardinal) no se produce de forma gravemente imprudente ni dolosa, la responsabilidad de <span class="label label-info">AltiviaOT.com</span> queda limitada a la cuantía del daño que fuera previsible razonablemente para <span class="label label-info">AltiviaOT.com</span> a la celebración del contrato.</li>
 										<li>2.21. El CLIENTE acepta la responsabilidad de realizar periódicamente respaldos de su sitio web y/o bases de datos, salvo convención en contrario. <span class="label label-info">AltiviaOT.com</span> realizará respaldos del servidor con fines de recuperación ante desastres, sin embargo los mismos no garantizan la restauración de los datos de su sitio web ante una falla o accidente.</li>
 										<br><p>Lo anterior no altera la responsabilidad de <span class="label label-info">AltiviaOT.com</span> por la promesa de determinadas características de sus productos, por daños personales así como la derivada de disposiciones legales imperativas.</p>
 										<p>En todos los demás casos en que, por aplicación de las cláusolas contractuales pertinentes o por imperativo legal se diese una responsabilidad de <span class="label label-info">AltiviaOT.com</span>, y salvo disposición legal imperativa en contra, la cuantificación de dicha responsabilidad se limitará a la parte correspondiente de la contraprestación abonada por el CLIENTE.</p>
@@ -107,7 +118,7 @@
 								<li>Licencias, Propiedad Intelectual:
 									<ul>
 										<p><span class="label label-info">AltiviaOT.com</span> es titolar de todos los derechos de autor, marcas, derechos de propiedad intelectual y cuantos otros derechos guarden relación con los servicios contratados por el CLIENTE, así como de los programas de ordenador necesarios para su implementación y la información que ésta obtenga sobre el mismo.</p>
-										<p>El CLIENTE debe respetar los programas de uso de terceros puestos a su disposición por <span class="label label-info">AltiviaOT.com</span> aunque sean gratuitos, de los cuales Iguanahosting.com dispone de los derechos de explotación necesarios.</p>
+										<p>El CLIENTE debe respetar los programas de uso de terceros puestos a su disposición por <span class="label label-info">AltiviaOT.com</span> aunque sean gratuitos, de los cuales <span class="label label-info">AltiviaOT.com</span> dispone de los derechos de explotación necesarios.</p>
 										<p>El CLIENTE, en virtud del presente contrato, no adquiere absolutamente ningún derecho o licencia a propósito de los servicios prestados, de los programas de ordenador necesarios para la prestación del servicio ni tampoco sobre la información técnica de seguimiento del servicio, excepción hecha de los derechos y licencias necesarios para el cumplimiento del presente contrato y únicamente para la duración del mismo.</p>
 										<p>El CLIENTE se compromete a garantizar que cualquier persona usuaria de los programas respete el acuerdo de licencia. El CLIENTE únicamente podrá usar los programas en un ordenador simoltáneamente. Se considerará que existe un "uso" de los programas cuando los mismos se encuentren en la memoria principal o en un medio de archivo de un ordenador. No se considerará usado un programa que únicamente se encuentre instalado en un servidor de red a los únicos efectos de la distribución de programas.</p>
 										<p>Para la utilización del software proporcionado por <span class="label label-info">AltiviaOT.com</span> para un producto sin contraprestación adicional, el CLIENTE deberá activarlo mediante un código de licencia facilitado por <span class="label label-info">AltiviaOT.com</span>. El código de licencia tendrá una validez de 6 meses, transcurridos los cuales ya no será posible una activación.</p>
@@ -123,8 +134,8 @@
 										<li>4.4. Si se produjese una variación en los impuestos aplicables a los servicios pactados, <span class="label label-info">AltiviaOT.com</span> podrá adaptar sus precios en consecuencia.</li>
 										<li>4.5. Las facturas se emitirán y enviarán al CLIENTE bajo su expresa solicitud y cobertura de gastos de envío.</li>
 										<li>4.6. En función del servicio prestado y del método de pago facilitado por <span class="label label-info">AltiviaOT.com</span>, el pago de las facturas se domiciliará en la cuenta bancaria indicada por el CLIENTE o se cargará al número de tarjeta bancaria proporcionado por el CLIENTE. El CLIENTE autoriza expresamente a <span class="label label-info">AltiviaOT.com</span> para realizar esta domiciliación o cargo a tarjeta de las facturas durante todo el periodo de vigencia de la relación contractual.</li>
-										<li>4.7. En caso de impago de la factura, el CLIENTE sufragará los costes de todos los requerimientos de pago, así como el coste de la devolución del recibo bancario y todos los demás gastos que se devengasen por dicho motivo atribuible al CLIENTE, incluidos honorarios y gastos de los abogados de Iguanahosting.com.</li>
-										<li>4.8. Iguanahosting.com se reserva el derecho a suspender los servicios prestados ante cualquier incidencia experimentada en el cobro del servicio y/o por falta de pago. Si el CLIENTE no procediera a regolarizar los pagos en el plazo de los 20 días naturales siguientes, AltiviaOT podrá cancelar de forma inmediata y definitiva el servicio, resolviendo el contrato con el CLIENTE por incumplimiento.</li>
+										<li>4.7. En caso de impago de la factura, el CLIENTE sufragará los costes de todos los requerimientos de pago, así como el coste de la devolución del recibo bancario y todos los demás gastos que se devengasen por dicho motivo atribuible al CLIENTE, incluidos honorarios y gastos de los abogados de <span class="label label-info">AltiviaOT.com</span>.</li>
+										<li>4.8. <span class="label label-info">AltiviaOT.com</span> se reserva el derecho a suspender los servicios prestados ante cualquier incidencia experimentada en el cobro del servicio y/o por falta de pago. Si el CLIENTE no procediera a regolarizar los pagos en el plazo de los 20 días naturales siguientes, AltiviaOT podrá cancelar de forma inmediata y definitiva el servicio, resolviendo el contrato con el CLIENTE por incumplimiento.</li>
 									</ul>
 								</li>
 							</div>
@@ -153,7 +164,7 @@
 									<ul>
 										<li>7.1 Conforme a lo establecido en la normativa vigente sobre protección de datos de carácter personal, <span class="label label-info">AltiviaOT.com</span> informa al CLIENTE de la existencia de ficheros automatizados de datos de carácter personal, de los que es responsable <span class="label label-info">AltiviaOT.com</span>.</li>
 										<li>7.2 <span class="label label-info">AltiviaOT.com</span> advierte expresamente al CLIENTE de que el estado actual de desarrollo de la técnica no permite garantizar totalmente la protección de datos en transmisiones de datos en redes abiertas como Internet. El CLIENTE es consciente de que por motivos técnicos el proveedor tiene acceso en todo momento a las páginas grabadas en el servidor de red y en su caso también a otros datos del CLIENTE archivados allí. También otros usuarios de Internet podrían estar en disposición técnica de interferir de forma no autorizada en la seguridad de la red, controlando el tráfico de mensajes. El CLIENTE será totalmente responsable de la seguridad de los datos que él haya transmitido en Internet y grabado en servidores de red.</li>
-										<li>7.3 El CLIENTE presta su consentimiento a Iguanahosting.com para que pueda tratar sus datos a fin de darle un mejor servicio. El CLIENTE puede en todo momento ejercitar los derechos de acceso, rectificación, cancelación y oposición, respecto de dichos datos dirigiéndose por escrito mediante correo electrónico a <span class="label label-info">info@AltiviaOT.com</span>.</li>
+										<li>7.3 El CLIENTE presta su consentimiento a <span class="label label-info">AltiviaOT.com</span> para que pueda tratar sus datos a fin de darle un mejor servicio. El CLIENTE puede en todo momento ejercitar los derechos de acceso, rectificación, cancelación y oposición, respecto de dichos datos dirigiéndose por escrito mediante correo electrónico a <span class="label label-info">info@AltiviaOT.com</span>.</li>
 									</ul>
 								</li>
 							</div>
@@ -163,7 +174,7 @@
 										<li>8.1. Cuando el CLIENTE sea un consumidor y el contrato se celebre sin la presencia física simoltánea del CLIENTE y de <span class="label label-info">AltiviaOT.com</span> (venta a distancia), el CLIENTE gozará del derecho de desistimiento descrito en esta sección.</li>
 										<li>8.2. El CLIENTE dispondrá de un plazo máximo de catorce días para desistir del contrato mediante declaración por escrito, remitida por fax, correo ordinario o electrónico sin penalización alguna y sin indicación de los motivos. El plazo para ejercer el derecho de desistimiento empezará a correr desde el día de la celebración del contrato.</li>
 										<li>8.3. El CLIENTE podrá ejercer el derecho de desistimiento remitiendo una carta con los datos que se mencionan en la cláusola 2.4, así como los datos relacionados al servicio (Identificador de cliente y número/s de contrato/s), a la dirección electrónica <span class="label label-info">info@AltiviaOT.com</span>.</li>
-										<li>8.4. El derecho de desistimiento del CLIENTE se extingue anticipadamente si <span class="label label-info">AltiviaOT.com</span>, contando con el consentimiento expreso del CLIENTE o a iniciativa de éste, ya ha comenzado con la prestación del servicio contratado antes de la expiración del plazo de desistimiento. El cliente no tiene derecho de desistimiento si Iguanahosting.com le suministra mercancías elaboradas de acuerdo con las especificaciones del CLIENTE o que estén diseñadas claramente en función de sus necesidades o si el CLIENTE mismo ha ordenado la prestación de un servicio antes de la expiración del plazo de desistimiento (por ejemplo, registro inmediato de un dominio a deseo del CLIENTE). Tampoco tiene el CLIENTE derecho de desistimiento si <span class="label label-info">AltiviaOT.com</span> le suministra un software en un soporte de datos y el CLIENTE lo desprecinta.</li>
+										<li>8.4. El derecho de desistimiento del CLIENTE se extingue anticipadamente si <span class="label label-info">AltiviaOT.com</span>, contando con el consentimiento expreso del CLIENTE o a iniciativa de éste, ya ha comenzado con la prestación del servicio contratado antes de la expiración del plazo de desistimiento. El cliente no tiene derecho de desistimiento si <span class="label label-info">AltiviaOT.com</span> le suministra mercancías elaboradas de acuerdo con las especificaciones del CLIENTE o que estén diseñadas claramente en función de sus necesidades o si el CLIENTE mismo ha ordenado la prestación de un servicio antes de la expiración del plazo de desistimiento (por ejemplo, registro inmediato de un dominio a deseo del CLIENTE). Tampoco tiene el CLIENTE derecho de desistimiento si <span class="label label-info">AltiviaOT.com</span> le suministra un software en un soporte de datos y el CLIENTE lo desprecinta.</li>
 									</ul>
 								</li>
 							</div>
@@ -184,31 +195,33 @@
 										<li>10.2. Las partes, con renuncia expresa a cualquier fuero que, conforme a derecho pudiera corresponderles, se someten para la resolución definitiva de todas las controversias resultantes de la relación contractual a los juzgados o tribunales de Colombia.</li>
 									</ul>
 								</li>
-								<li>Varios:
-									<ul>
-										<p>En caso de que una o varias de las estipulaciones del contrato resultasen nulas, esto no afectará a la validez del resto.</p>
-									</ul>
-								</li>
+								<div id="varios">
+									<li>Varios:
+										<ul>
+											<p>En caso de que una o varias de las estipulaciones del contrato resultasen nulas, esto no afectará a la validez del resto.</p>
+										</ul>
+									</li>
+								</div>
 							</div>
 						</ol>
 					</li>
 					<li>
 						<h3>II. Condiciones Particulares</h3>
 						<ol>
-							<li>Registro de dominios
+							<li id="registro_dominios">Registro de dominios
 								<ul>
 									<li>1.1 Los distintos Top-Level-Domains son administrados por multitud de organizaciones distintas, en su mayoría nacionales. Cada una de estas organizaciones de asignación de dominios ha establecido distintas condiciones para el registro y la administración de los Top-Level-Domains, de sus correspondientes Sub-Level Domains y para la forma de proceder en casos de disputas sobre dominios.</li>
 									<li>1.2 En la creación y/o mantenimiento de dominios <span class="label label-info">AltiviaOT.com</span> intervendrá en la relación entre el cliente y la organización correspondiente de concesión del dominio, como mero intermediario. <span class="label label-info">AltiviaOT.com</span> no tiene influencia alguna en la concesión de dominios. <span class="label label-info">AltiviaOT.com</span> no asume ninguna garantía de que los dominios solicitados por el cliente efectivamente se le concedan y/o que los dominios concedidos estén libres de derechos en favor de terceros o tengan continuidad a largo plazo.</li>
 								</ul>
 							</li>
-							<li>Derechos de dominio, litigios
+							<li id="derechos_dominio_litigios">Derechos de dominio, litigios
 								<ul>
 									<li>2.1 El CLIENTE garantiza que el dominio por él solicitado no infringe derechos de terceros.</li>
 									<li>2.2 El CLIENTE está obligado a notificar de inmediato a <span class="label label-info">AltiviaOT.com</span> la eventual pérdida de su dominio. Si el CLIENTE planease la recuperación de su dominio por parte de un tercero, quedará obligado a informar inmediatamente a <span class="label label-info">AltiviaOT.com</span> sobre la iniciación de negociaciones con el tercero, contestar a las consultas de <span class="label label-info">AltiviaOT.com</span> sobre el estado de las negociaciones con el tercero y conceder a <span class="label label-info">AltiviaOT.com</span> el derecho preferente de recuperación para el CLIENTE, en los casos y en la medida en que ello no perjudique los intereses del CLIENTE.</li>
 									<li>2.3 Mientras el CLIENTE mismo no haya dotado aún de contenidos un dominio <span class="label label-info">AltiviaOT.com</span> quedará facultado para introducir contenidos propios, como publicidad de <span class="label label-info">AltiviaOT.com</span> o de terceros.</li>
 								</ul>
 							</li>
-							<li>Sobre Ancho Recursos Ilimitados y Uso aceptable de los recursos
+							<li id="recursos_ilimitados_e_usos">Sobre Ancho Recursos Ilimitados y Uso aceptable de los recursos
 								<ul>
 									<li>3.1 Cada servidor es provisto con amplio ancho de banda, memoria ram, capacidad de procesamiento y espacio en disco para su correcto funcionamiento, sin embargo algunos recursos según el servicio son compartidos con otros usuarios, según el servicio contratado con la finalidad de mantener tarifas competitivas, por esta razón el uso de dichos recursos queda regido por nuestras condiciones de uso aceptable.</li>
 									<li>3.2 Aquellos CLIENTES que requieran mayores recursos deben contratar un servicio acorde a sus necesidades, el incumplimiento de nuestras normas de coexistencia es causal de cancelación de contrato de servicios</li>

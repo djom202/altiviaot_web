@@ -1,71 +1,48 @@
-::-webkit-scrollbar {
-    width: 12px;
-}
-
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: #000000;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-track-piece {
-    background-color: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    background: #EB8A1D;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
-}
-
-::-webkit-scrollbar-thumb:window-inactive {
-    background: #EB8A1D;
-}
-
 * {
     cursor: pointer !important;
 }
+
+/* animacion de la nubes */
+@-webkit-keyframes animate-cloud{from{background-position:600px 100%;} to{background-position:0 100%;}}@-moz-keyframes animate-cloud{from{background-position:600px 100%;} to{background-position:0 100%;}}@-ms-keyframes animate-cloud{from{background-position:600px 100%;} to{background-position:0 100%;}}@-o-keyframes animate-cloud{from{background-position:600px 100%;} to{background-position:0 100%;}}.animate-cloud-key from{background-position:600px 100%;}
+
 body{
-    color: #FFF;
-    overflow: hidden;
-    background: #049EC4 url('https://dl.dropbox.com/u/57960869/Altiviaot/web/home/cloud.jpg') 0% 0% repeat-x; /*058bb4*/
-    animation: animate-cloud 20s linear infinite;
     -moz-animation: animate-cloud 20s linear infinite;
     -webkit-animation: animate-cloud 20s linear infinite;
-    background-attachment: fixed
+    animation: animate-cloud 20s linear infinite;
+    background-attachment: fixed !important;
+    background-color: #049EC4 !important;
+    background: url('https://dl.dropbox.com/u/57960869/Altiviaot/web/home/cloud.jpg') 0% 0% repeat-x; /*058bb4*/
+    color: #FFF;
+    overflow: hidden;
 }
-#logo{
-    margin-bottom: 4%;
-    margin-top: 4%;
+
+#ahome img{
+    margin-bottom: -5%;
+    margin-top: -3%;
+    width: 6em;
+}
+
+div#ajaxLoader{
     text-align: center;
 }
-#home{
-    /*margin-top: 3.9%;*/
+
+.navbar .brand {
+    padding: 0 !important;
+    padding-right: 20px !important;
+    padding-left: 40px !important;
+    padding-top: 0.5% !important;
 }
-@-webkit-keyframes animate-cloud{from{background-position:600px 100%;} to{background-position:0 100%;}}@-moz-keyframes animate-cloud{from{background-position:600px 100%;} to{background-position:0 100%;}}@-ms-keyframes animate-cloud{from{background-position:600px 100%;} to{background-position:0 100%;}}@-o-keyframes animate-cloud{from{background-position:600px 100%;} to{background-position:0 100%;}}.animate-cloud-key from{background-position:600px 100%;}
-#nosotros{
-    /*background-image: url('../../themes/img/about/fondo.png');*/
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    background-color: #f89c0b !important;
 }
-#contacto footer{ color: #000; }
-#politicas{
-    /*background-image: url('../../themes/img/politicas/fondo.png');
-    background-size: 2px;
-    background-repeat: repeat;*/
+
+@media (max-width: 979px){
+    .nav-collapse .nav > li > a:hover, .nav-collapse .nav > li > a:focus, .nav-collapse .dropdown-menu a:hover, .nav-collapse .dropdown-menu a:focus {
+        background-color: #f89c0b !important;
+    }
 }
-#servicios{
-    /*background-image: url('../../themes/img/servicios/fondo.png');*/
-    /*background: -webkit-linear-gradient(45deg, #020031 0%,#6D3353 100%);
-    background: -moz-linear-gradient(45deg, #020031 0%,#6D3353 100%);
-    background: -o-linear-gradient(45deg, #020031 0%,#6D3353 100%);
-    background: linear-gradient(45deg, #020031 0%,#6D3353 100%);*/
-}
-#home section, #servicios section,#politicas section, #nosotros section, #contacto section, #redes_sociales section{
-    margin-left: 5%;
-    padding-right: 2%;
-    padding-top: 2%;
-    margin-right: 5%;
-}
+
 .seccion{
     background-repeat: no-repeat;
     background-size: cover;
@@ -73,44 +50,26 @@ body{
     margin-left: -2%;
     width: 105%;
 }
+
 .seccion div{
     color: #FFF;
     text-align: justify;
 }
+
+.seccion header{
+    margin-bottom: 4%;
+}
+
 .seccion span{
     color: #F89C0B;
 }
-footer{
-    padding: 1% 0%;
+
+#logo{
+    margin-bottom: 4%;
+    margin-top: 4%;
     text-align: center;
-    margin-top: 1%;
 }
-#nosotros footer{
-    margin-top: 2% !important;
-}
-#tools {
-    line-height: 0px !important;
-    margin: 0px !important;
-    padding: 0px !important;
-}
-#log{
-    float: right;
-    font-size: 0.5em;
-    margin-top: -6%;
-}
-.lista{
-    height: 20em;
-    list-style-type: none;
-    overflow-y: auto;
-    padding-right: 1%;
-}
-.seccion h2,h3{
-    color: #F89C0B;
-    font-family: "chiller";
-    margin-bottom: 1%;
-    margin-left: 1%;
-    text-transform: uppercase;
-}
+
 .seccion h1{
     color: white;
     font-family: "chiller";
@@ -119,73 +78,42 @@ footer{
     margin-top: 4%;
     text-transform: uppercase;
 }
-#iphone {
-    background-image: url('https://dl.dropbox.com/u/57960869/Altiviaot/web/contacto/iphone.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 33em;
-    margin-top: -11%;
-    width: 16em;
+
+.seccion h2, h3 {
+    color: #f89c0b;
+    font-family: "chiller";
+    margin-bottom: 1%;
+    margin-left: 1%;
+    text-transform: uppercase;
 }
-#google-maps {
-    background-image: url('https://dl.dropbox.com/u/57960869/Altiviaot/web/contacto/mapa.png');
-    background-repeat: no-repeat;
-    background-position: 47% 0%;
-    background-size: cover;
-    height: 17.5em;
-    margin-left: 13%;
-    margin-top: 57%;
-    width: 12em;
+
+#home section, #servicios section,#politicas section, #nosotros section, #contacto section, #redes_sociales section{
+    margin-left: 5%;
+    padding-right: 2%;
+    padding-top: 2%;
+    margin-right: 5%;
 }
-#cell {
-    background-image: url('https://dl.dropbox.com/u/57960869/Altiviaot/web/contacto/cell.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 4em;
-    margin-top: 17%;
-    width: 2.9em;
-}
-#tel {
-    margin-top: 17%;
-}
-.bs-docs-sidenav {
-    width: 166px;
-}
-#mail {
-    background-image: url('https://dl.dropbox.com/u/57960869/Altiviaot/web/contacto/mail.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 3em;
-    margin-left: 31%;
-    margin-top: -11%;
-    width: 3em;
-}
-#correo {
-    margin-left: 175%;
-    margin-top: -46%;
-}
-#qr {
-    background-image: url('https://dl.dropbox.com/u/57960869/Altiviaot/web/contacto/qr.png');
-    background-repeat: no-repeat;
-    background-size: 87% 100%;
-    height: 11em;
-    margin-top: 15%;
-}
-#info{
-    height: 20em;
-}
-.cont{
-    height: 29em;
-    overflow-y: auto;
-    padding-right: 1%;
-}
-#cont2{
-    height: 26em;
-    padding-right: 1%;
-}
+
 .seccion header{
     margin-bottom: 4%;
 }
+
+#nosotros footer img{
+    transition: .2s;
+    -moz-transition: .2s;
+    -webkit-transition: .2s;
+}
+
+#nosotros footer img:hover{ -webkit-transform: scale(1.1); }
+
+#nosotros footer{
+    margin-top: 2% !important;
+}
+
+.popover.bottom {
+    margin-top: 14px;
+}
+
 a{
     color: #f89c0b;
 }
@@ -195,29 +123,89 @@ a:hover{
 .logo{
     margin-left: 6%;
 }
-.bs-docs-sidenav > li > a:hover {
-    background-color: #F89C0B;
-    color: white;
+
+.der{
+    text-align: right !important;
 }
-#logo1{ }
-/*
-#logo2{ display: none !important; }
-#logo3{ display: none !important; }
-#logo4{ display: none !important; }
-#logo5{ display: none !important; }
-#logo6{ display: none !important; }
-#logo7{ display: none !important; }
-#logo8{ display: none !important; }
-#logo9{ display: none !important; }*/
-#nosotros footer img{
-    transition: .2s;
-    -moz-transition: .2s;
-    -webkit-transition: .2s;
+
+div#politicas .cont{
+    height: 29em;
+    overflow-y: auto;
+    padding-right: 1%;
 }
-#nosotros footer img:hover{-webkit-transform: scale(1.1);}
-.popover.bottom {
-    margin-top: 14px;
+
+#iphone {
+    background-image: url('https://dl.dropbox.com/u/57960869/Altiviaot/web/contacto/iphone.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 30em;
+    margin-top: -23%;
+    width: 16em;
 }
+
+#tools {
+    line-height: 0px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+#contacto footer{ color: #000; }
+
+footer{
+    padding: 1% 0%;
+    text-align: center;
+    margin-top: 1%;
+}
+
+#google-maps {
+    background-image: url('https://dl.dropbox.com/u/57960869/Altiviaot/web/contacto/mapa.png');
+    background-repeat: no-repeat;
+    background-position: 47% 0%;
+    background-size: cover;
+    height: 19em;
+    margin-left: 10%;
+    margin-top: 33%;
+    width: 12.7em;
+}
+
+#cell {
+    background-image: url('https://dl.dropbox.com/u/57960869/Altiviaot/web/contacto/cell.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 4em;
+    margin-top: 9%;
+    width: 2.9em;
+}
+
+#tel {
+    margin-top: 9%;
+}
+
+#mail {
+    background-image: url('https://dl.dropbox.com/u/57960869/Altiviaot/web/contacto/mail.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 3em;
+    margin-left: 31%;
+    margin-top: -11%;
+    width: 3em;
+}
+
+#correo {
+    margin-left: 175%;
+    margin-top: -46%;
+}
+#qr {
+    background-image: url('https://dl.dropbox.com/u/57960869/Altiviaot/web/contacto/qr.png');
+    background-repeat: no-repeat;
+    background-size: 87% 100%;
+    height: 12em;
+    margin-top: 5%;
+}
+#info{
+    height: 20em;
+}
+
 .tw{
     text-align: center;
     background-image:url('https://dl.dropbox.com/u/57960869/Altiviaot/web/fondo_twitter.png');
@@ -229,9 +217,7 @@ a:hover{
     padding-bottom: 8%;
     padding-top: 11%;
 }
-.der{
-    text-align: right !important;
-}
+
 .face{
     text-align: center;
     background-image:url('https://dl.dropbox.com/u/57960869/Altiviaot/web/fondo_facebook.jpg');
@@ -243,16 +229,89 @@ a:hover{
     padding-bottom: 8%;
     padding-top: 11%;
 }
-@media (max-width: 979px){
-    .nav-collapse .nav > li > a:hover, .nav-collapse .dropdown-menu a:hover {
-        background-color: #333 !important;
-    }
+
+input#inputTwitter{
+    width: 15.3em !important;
+}
+
+select {
+    width: 17.2em;
+}
+
+div.tweets ul{
+    list-style: none;
+}
+
+div.modal-body label{
+    color: #f89c0b;
+}
+
+div.modal-body span{
+    color: #f89c0b;
+}
+
+.nav-list > li > a, .nav-list .nav-header {
+    text-shadow: none;
+}
+
+input, textarea, .uneditable-input {
+    width: 227px !important;
+}
+
+div#redTweeter{
+    background-image: url('https://dl.dropbox.com/u/57960869/Altiviaot/web/redes/iphone.png');
+    background-repeat: no-repeat;
+    background-size: 75% 100%;
+    height: 37em;
+    margin-top: -4%;
+}
+
+div.tweets{
+    height: 18.6em;
+    margin-left: 10%;
+    margin-top: 43%;
+    overflow-y: auto;
+    width: 13.5em;
+}
+
+div.tweets .tweet_text{
+    color: #FFF !important;
+    margin-left: 19%;
+}
+
+span.tweet_time{
+    padding-left: 25%;
+}
+
+li.tweet_first, li.tweet_even, li.tweet_odd{
+    margin-bottom: 10%;
+}
+
+div.likes{
+    height: 29em;
+    margin-left: 5.6%;
+    margin-top: 10.5%;
+    width: 28.2em;
+}
+
+ul.tweet_list{
+    margin: 0;
+    padding-right: 2%;
+}
+
+div#redFacebook{
+    background-image: url('https://dl.dropbox.com/u/57960869/Altiviaot/web/redes/tablet.png');
+    background-repeat: no-repeat;
+    background-size: 85% 100%;
+    height: 38em;
+    margin-top: -5%;
 }
 
 /* ----------------------------------------------------------- */
 ul.polaroids a:after {
     content: attr(title);
 }
+
 /* By default, we tilt all our images -2 degrees */
 ul.polaroids a {
     -webkit-transform: rotate(-2deg);
@@ -294,6 +353,7 @@ ul.polaroids li:nth-child(11n) a {
     top: 3px;
     left: -5px;
 }
+
 ul.polaroids a:hover {
     -webkit-transform: scale(1.25);
     -moz-transform: scale(1.25);
@@ -314,8 +374,8 @@ ul.polaroids a {
 }
 
 ul.polaroids {
-    margin-left: 10%;
-    margin-top: 1%;
+    margin-left: 2%;
+    margin-top: 8%;
     position: absolute;
     width: 12em;
 }
@@ -337,14 +397,4 @@ ul.polaroids a {
     -webkit-transform: rotate(-2deg);
     -webkit-transition: -webkit-transform .15s linear;
     -moz-transform: rotate(-2deg);
-}
-
-#ahome img{
-    margin-bottom: -5%;
-    margin-top: -3%;
-    width: 7em;
-}
-
-#redes_sociales{
-
 }
