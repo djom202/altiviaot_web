@@ -7,7 +7,7 @@
 	header("Pragma: no-store");
 	header('Expires: ' . date('D, d M Y H:i:s', time()+$cache_expire) . ' GMT');
 
-	define('Dropbox', 'http://dl.dropbox.com/u/57960869/Altiviaot/web/');
+	include('clases/config.php');
 	include('clases/seguridad.php');
 ?>
 <!DOCTYPE html>

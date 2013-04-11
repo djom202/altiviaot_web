@@ -9,12 +9,12 @@
 
 <link href="https://dl.dropbox.com/u/57960869/Altiviaot/loader/loader.min.css" rel="stylesheet">
 <link href="https://dl.dropbox.com/u/57960869/Altiviaot/scrollbar.min.css" rel="stylesheet">
-<link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+<link href="https://dl.dropboxusercontent.com/u/57960869/Altiviaot/bootstrap/assets/css/altiviaot.css" rel="stylesheet">
 <link href="themes/css/stylesheet.min.css" rel="stylesheet">
 <style type="text/css">
     body { padding-top: 60px; padding-bottom: 40px; }
 </style>
-<link href="http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
+<link href="https://dl.dropboxusercontent.com/u/57960869/Altiviaot/bootstrap/assets/css/altiviaot-responsive.css" rel="stylesheet">
 
 <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>

@@ -3,16 +3,22 @@
 }
 
 /* animacion de la nubes */
-@-webkit-keyframes animate-cloud{from{background-position:600px 100%;} to{background-position:0 100%;}}@-moz-keyframes animate-cloud{from{background-position:600px 100%;} to{background-position:0 100%;}}@-ms-keyframes animate-cloud{from{background-position:600px 100%;} to{background-position:0 100%;}}@-o-keyframes animate-cloud{from{background-position:600px 100%;} to{background-position:0 100%;}}.animate-cloud-key from{background-position:600px 100%;}
+@-webkit-keyframes animate-cloud{from{background-position:600px 100%;} to{background-position:0 100%;}}
+@-moz-keyframes animate-cloud{from{background-position:600px 100%;} to{background-position:0 100%;}}
+@-ms-keyframes animate-cloud{from{background-position:600px 100%;} to{background-position:0 100%;}}
+@-o-keyframes animate-cloud{from{background-position:600px 100%;} to{background-position:0 100%;}}.animate-cloud-key from{background-position:600px 100%;}
 
 body{
-    -moz-animation: animate-cloud 20s linear infinite;
-    -webkit-animation: animate-cloud 20s linear infinite;
-    animation: animate-cloud 20s linear infinite;
-    background-attachment: fixed !important;
-    background-color: #049EC4 !important;
-    background: url('https://dl.dropbox.com/u/57960869/Altiviaot/web/home/cloud.jpg') 0% 0% repeat-x; /*058bb4*/
-    color: #FFF;
+    -webkit-animation: animate-cloud 20s linear infinite;
+    -moz-animation: animate-cloud 20s linear infinite;
+    -ms-animation: animate-cloud 20s linear infinite;
+    -o-animation: animate-cloud 20s linear infinite;
+    animation: animate-cloud 20s linear infinite;
+    background-attachment: fixed !important;
+    background-color: #049EC4 !important;
+    background: url('https://dl.dropbox.com/u/57960869/Altiviaot/web/home/cloud.jpg') 0% 0% repeat-x;
+    /*058bb4*/
+    color: #FFF;
     overflow: hidden;
 }
 
@@ -99,12 +105,20 @@ div#ajaxLoader{
 }
 
 #nosotros footer img{
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -o-transition: .2s;
+    -ms-transition: .2s;
     transition: .2s;
-    -moz-transition: .2s;
-    -webkit-transition: .2s;
 }
 
-#nosotros footer img:hover{ -webkit-transform: scale(1.1); }
+#nosotros footer img:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
 
 #nosotros footer{
     margin-top: 2% !important;
@@ -314,29 +328,41 @@ ul.polaroids a:after {
 
 /* By default, we tilt all our images -2 degrees */
 ul.polaroids a {
-    -webkit-transform: rotate(-2deg);
-    -moz-transform: rotate(-2deg);
+    -webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+    -o-transform: rotate(-2deg);
+    -ms-transform: rotate(-2deg);
+    transform: rotate(-2deg);
 }
 
 /* Rotate all even images 2 degrees */
 ul.polaroids li:nth-child(even) a {
-    -webkit-transform: rotate(2deg);
-    -moz-transform: rotate(2deg);
+    webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    -o-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    transform: rotate(2deg);
 }
 
 /* Don't rotate every third image, but offset its position */
 ul.polaroids li:nth-child(3n) a {
-    -webkit-transform: none;
-    -moz-transform: none;
-    position: relative;
+    webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    transform: none;
+    position: relative;
     top: -5px;
 }
 
 /* Rotate every fifth image by 5 degrees and offset it */
 ul.polaroids li:nth-child(5n) a {
-    -webkit-transform: rotate(5deg);
-    -moz-transform: rotate(5deg);
-    position: relative;
+    webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    transform: rotate(5deg);
+    position: relative;
     right: 5px;
 }
 
@@ -355,22 +381,29 @@ ul.polaroids li:nth-child(11n) a {
 }
 
 ul.polaroids a:hover {
-    -webkit-transform: scale(1.25);
-    -moz-transform: scale(1.25);
-    position: relative;
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    transform: scale(1.25);
+    position: relative;
     z-index: 5;
 }
 
 ul.polaroids a {
-    -webkit-transition: -webkit-transform .15s linear;
-    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
-    -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+    -webkit-transition: -webkit-transform .15s linear;
+    -moz-transition: -moz-transform .15s linear;
+    -o-transition: -o-transform .15s linear;
+    -ms-transition: -ms-transform .15s linear;
+    transition: transform .15s linear;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+    box-shadow: 0 3px 6px rgba(0,0,0,.25);
 }
 
 /* On hover, darken the shadows a bit */
 ul.polaroids a {
-    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5);
-    -moz-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+    box-shadow: 0 3px 6px rgba(0,0,0,.5);
 }
 
 ul.polaroids {
@@ -381,6 +414,18 @@ ul.polaroids {
 }
 
 ul.polaroids a {
+    -webkit-transition: -webkit-transform .15s linear;
+    -moz-transition: -moz-transform .15s linear;
+    -o-transition: -o-transform .15s linear;
+    -ms-transition: -ms-transform .15s linear;
+    transition: transform .15s linear;
+
+    -webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+    -o-transform: rotate(-2deg);
+    -ms-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+
     background: white;
     display: inline;
     float: left;
@@ -392,9 +437,4 @@ ul.polaroids a {
     text-decoration: none;
     color: #333;
     font-size: 13px;
-    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, .25);
-    -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
-    -webkit-transform: rotate(-2deg);
-    -webkit-transition: -webkit-transform .15s linear;
-    -moz-transform: rotate(-2deg);
 }
