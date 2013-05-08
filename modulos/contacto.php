@@ -1,7 +1,7 @@
 <div id="contacto" class="seccion row-fluid">
 	<header class="row-fluid"><h1>Contacto</h1></header>
 	<section class="row-fluid">
-		<div class="offset2">
+		<div class="offset1">
 			<div class="span8">
 				<div class="row-fluid"><br>Para cualquier duda ó contacto por favor haga uso unicamente de los datos que se proporcionan a continuación. Para cualquier duda ó contacto por favor haga uso unicamente de los datos que se proporcionan a continuación.</div>
 				<div class="row-fluid">

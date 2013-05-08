@@ -2,7 +2,7 @@
 	<div id="logo"><img src="<?php echo Dropbox; ?>home/logotipo.png" alt=""></div>
 	<section class="row-fluid">
 		<div class="row-fluid">
-			<div class="span5">
+			<div class="span6">
 				<h3>Mision</h3>
 				Ofrecer un servicio con calidad, excelencia y profesionalismo además de un soporte técnico y las
 				tarifas más competitivas para convertirnos en el líder de la comunidad latinoamericana en el ámbito
@@ -15,7 +15,7 @@
 				lograr que Ud. logre su meta.
 			</div>
 		</div>
-		<div class="span10 row-fluid">
+		<div class="offset1 span10 row-fluid">
 			<br>
 			Experiencia, Profesionalismo y Conocimientos son nuestras bases para formar una compañía que tiene
 			todo lo que usted necesita para que aproveche todas las ventajas que Internet le puede ofrecer. Ud.

@@ -1,8 +1,8 @@
-<div id="politicas" class="seccion row-fluid">
+<div id="politicas" class="hidden-phone seccion row-fluid">
 	<header class="row-fluid"><h1>Politicas</h1></header>
 	<section style="padding-top: 0 !important;">
-		<div class="row-fluid offset1">
-			<div class="span5 bs-docs-sidebar hidden-phone">
+		<div class="row-fluid">
+			<div class="offset1 span4 bs-docs-sidebar hidden-phone">
 		        <ul class="nav nav-list bs-docs-sidenav affix-top">
 		          <li>I Condiciones</li>
 		          <li><a href="#generales"><i class="icon-chevron-right icon-white"></i> Generales</a></li>

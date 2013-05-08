@@ -10,9 +10,12 @@
 <link href="https://dl.dropbox.com/u/57960869/Altiviaot/loader/loader.min.css" rel="stylesheet">
 <link href="https://dl.dropbox.com/u/57960869/Altiviaot/scrollbar.min.css" rel="stylesheet">
 <link href="https://dl.dropboxusercontent.com/u/57960869/Altiviaot/bootstrap/assets/css/altiviaot.css" rel="stylesheet">
+<link href="https://dl.dropboxusercontent.com/u/57960869/Altiviaot/scrollbar.min.css" rel="stylesheet">
 <link href="themes/css/stylesheet.min.css" rel="stylesheet">
 <style type="text/css">
     body { padding-top: 60px; padding-bottom: 40px; }
+    #loader{ margin-top: -6%; z-index:2000; position:absolute; }
+    #loader_texto{ padding-left:2%; color:#333; }
 </style>
 <link href="https://dl.dropboxusercontent.com/u/57960869/Altiviaot/bootstrap/assets/css/altiviaot-responsive.css" rel="stylesheet">
 
@@ -21,4 +24,4 @@
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
-<link rel="shortcut icon" href="http://twitter.github.com/bootstrap/assets/images/favicon.ico">
+<link rel="shortcut icon" href="https://dl.dropboxusercontent.com/u/57960869/Altiviaot/fav.ico">

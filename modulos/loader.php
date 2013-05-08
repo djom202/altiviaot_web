@@ -1,5 +1,5 @@
-<div id="loader" class="row-fluid" style="z-index:2000; position:absolute;">
-    <div id="ball"></div>
-    <div id="ball1"></div>
-    <label class="offset5" style="padding-left:2%; color:#333;">Cargando...</label>
+<div id="loader" class="row-fluid">
+    <div id="ball" class="hidden-phone"></div>
+    <div id="ball1" class="hidden-phone"></div>
+    <label id="loader_texto" class="offset5">Cargando...</label>
 </div>

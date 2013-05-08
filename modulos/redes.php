@@ -2,7 +2,7 @@
 	<header class="row-fluid span12"><h1>Redes Sociales</h1></header>
 	<section class="row-fluid">
 		<div id="redTweeter" class="offset1 span4">
-			<div class="tweets"></div>
+			<div class="tweets"><?php if (file_exists("modulos/tweets.php")){ include('modulos/tweets.php'); } ?></div>
 		</div>
 		<div id="redFacebook" class="offset2 span5">
 			<div class="likes">

@@ -30,32 +30,16 @@
                 </div>
             </div>
             <div id="reCAPTCHA" class="row-fluid">
-                <?php
-                    /*include('lib/reCAPTCHA/config-formulario.php');
-                    require_once('lib/reCAPTCHA/recaptchalib.php');
-                    echo recaptcha_get_html($publickey);*/
-                ?>
-                <div class="offset2">
-                    <!--<script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
-                    <script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LfbKd8SAAAAALX6hXk0ert2Ugg7ENNvdXDEkfYh"></script>
-                    <script>Recaptcha.widget = Recaptcha.$("recaptcha_widget_div"); Recaptcha.challenge_callback();</script>
-                    <script type="text/javascript">
-                        var RecaptchaOptions = {
-                            theme : 'white',
-                            custom_theme_widget: 'recaptcha_widget'
-                        };
-                    </script>-->
-                </div>
+                <div id="reCAPTCHA_container" class="offset2"></div>
             </div>
             <div id="ajaxLoader" class="hide"><img src="https://dl.dropbox.com/u/57960869/Altiviaot/loader.gif" alt=""></div>
         </form>
     </div>
     <div class="der modal-footer">
-        <a id="buttonSubmitFormContacto" class="btn btn-primary"><i class="icon-envelope icon-white"></i> Enviar</a>
+        <a id="buttonSubmitFormContacto" class="btn btn-warning"><i class="icon-envelope icon-white"></i> Enviar</a>
         <a class="btn" data-dismiss="modal">Cerrar</a>
     </div>
 </div>
-
 <style type="text/css">
     .error{
         background-color: #f89c0b;

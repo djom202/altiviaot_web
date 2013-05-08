@@ -1,18 +1,32 @@
 <div id="servicios" class="seccion row-fluid">
-	<header class="row-fluid span12"><h1>Servicios</h1></header>
+	<header class="row-fluid"><h1>Servicios</h1></header>
 	<section>
-		<div class="row-fluid span10 offset2">
-			<form action="clases/servicios.php" method="POST">
+		<div class="row offset1">
+			<form action="clases/cotizacion_web.php" method="POST">
 				<div class="row-fluid">
 					<div class="span8">
 						<h3>Solicitud de pedido</h3>
 						<div class="row-fluid">
-							<input type="text" name="nombre" placeholder="Nombre" required="required">
-							<input type="email" name="correo" placeholder="Correo" required="required">
+							<input class="input-xlarge" type="text" name="nombre" placeholder="Nombre" required="required">
+							<input class="input-xlarge" type="email" name="correo" placeholder="Correo" required="required">
 						</div>
 						<div class="row-fluid">
-							<input type="tel" name="tel" placeholder="Telefono" required="required">
-							<input type="text" name="ciudad" placeholder="Ciudad" required="required">
+							<input class="input-xlarge" type="tel" name="tel" placeholder="Telefono" required="required">
+			            	<input class="input-xlarge" type="text" name="ciudad" placeholder="Ciudad" required="required" data-provide="typeahead" data-items="4" data-source="[&quot;Alabama&quot;,&quot;Alaska&quot;,&quot;Arizona&quot;,&quot;Arkansas&quot;,&quot;California&quot;,&quot;Colorado&quot;,&quot;Connecticut&quot;,&quot;Delaware&quot;,&quot;Florida&quot;,&quot;Georgia&quot;,&quot;Hawaii&quot;,&quot;Idaho&quot;,&quot;Illinois&quot;,&quot;Indiana&quot;,&quot;Iowa&quot;,&quot;Kansas&quot;,&quot;Kentucky&quot;,&quot;Louisiana&quot;,&quot;Maine&quot;,&quot;Maryland&quot;,&quot;Massachusetts&quot;,&quot;Michigan&quot;,&quot;Minnesota&quot;,&quot;Mississippi&quot;,&quot;Missouri&quot;,&quot;Montana&quot;,&quot;Nebraska&quot;,&quot;Nevada&quot;,&quot;New Hampshire&quot;,&quot;New Jersey&quot;,&quot;New Mexico&quot;,&quot;New York&quot;,&quot;North Dakota&quot;,&quot;North Carolina&quot;,&quot;Ohio&quot;,&quot;Oklahoma&quot;,&quot;Oregon&quot;,&quot;Pennsylvania&quot;,&quot;Rhode Island&quot;,&quot;South Carolina&quot;,&quot;South Dakota&quot;,&quot;Tennessee&quot;,&quot;Texas&quot;,&quot;Utah&quot;,&quot;Vermont&quot;,&quot;Virginia&quot;,&quot;Washington&quot;,&quot;West Virginia&quot;,&quot;Wisconsin&quot;,&quot;Wyoming&quot;]">
+			            	<ul class="typeahead dropdown-menu" style="top: 69px; left: 19px; display: none;">
+			            		<li data-value="Hawaii" class="active">
+			            			<a href="#"><strong>H</strong>awaii</a>
+			            		</li>
+			            		<li data-value="Idaho">
+			            			<a href="#">Ida<strong>h</strong>o</a>
+			            		</li>
+			            		<li data-value="Massachusetts">
+			            			<a href="#">Massac<strong>h</strong>usetts</a>
+			            		</li>
+			            		<li data-value="Michigan">
+			            			<a href="#">Mic<strong>h</strong>igan</a>
+			            		</li>
+			            	</ul>
 						</div>
 						<div class="row-fluid">
 							<h3>¿En cuales servicios estas interesado?</h3>
@@ -31,7 +45,7 @@
 						<br>
 						<br>
 						<label>*Comentarios de su Proyecto</label>
-						<textarea name="" id="" cols="30" rows="8"></textarea>
+						<textarea name="comentarios" cols="30" rows="8" style="width: 290px;"></textarea>
 					</div>
 				</div>
 				<br>

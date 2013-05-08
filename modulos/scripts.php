@@ -83,12 +83,15 @@
 
 	            alert('Su mensaje ha sido enviado con Exito.');
 	        });
-			$(".tweets").tweet({
+			$(".2tweets").tweet({
                 username: "AltiviaOT",
                 avatar_size: 48,
                 count: 5,
                 loading_text: "Cargando Tweets..."
             });
+
+			$('.pop').popover('toggle');
+
         });
     </script>
     <script language="javascript" src="themes/js/jquery.tweet.js" type="text/javascript"></script>
@@ -96,3 +99,11 @@
     	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]—>
 	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	<script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
+	<script type="text/javascript">
+	    Recaptcha.create("6Lc5xN8SAAAAAH_8yUCsOmo2QDxR6MA8p1-1iFQP", 'reCAPTCHA_container', {
+	        theme: "white",
+	        custom_theme_widget: 'recaptcha_widget',
+	        callback: Recaptcha.focus_response_field
+	    });
+	</script>
